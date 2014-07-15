@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Methods for simplifying the use of external pics, videos, sounds"
   s.authors     = ["Avi Tevet"]
   s.email       = 'externalmedia@avitevet.com'
-  s.files       = ["lib/external_media.rb"]
+  s.files       = Dir.glob("lib/**/*.rb")
   s.homepage    = 'http://github.com/avitevet/external_media'
   s.license       = 'MIT'
 end

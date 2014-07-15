@@ -1,4 +1,6 @@
 module ExternalMedia
+  require 'external_media/engine' if defined?(Rails)
+
   def self.included(klass)
     klass.extend(ClassMethods)
   end
